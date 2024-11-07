@@ -1,0 +1,36 @@
+{
+  "name": "currency-converter",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Currency Converter",
+  "type": "module",
+  "scripts": {
+    "clean": "node -e \"const fs=require('fs');['dist','build','.vite','tsconfig.tsbuildinfo'].forEach(p=>fs.rmSync(p,{recursive:true,force:true}))\"",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.9.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
+  },
+  "author": {
+    "name": "Tahmid Sarker",
+    "url": "https://tahmid-sarker.github.io"
+  }
+}
